@@ -1,0 +1,129 @@
+.container-nav{
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display: flex;
+    text-decoration: none;
+    gap: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-right a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right p:hover{
+    color: white;
+}
+
+.nav-right svg:hover{
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(211, 211, 211, 0.582);
+
+}
+.nav-right p{
+   font-size: 20px;
+    color: lightgrey;
+    padding: 5px;
+}
+.nav-right svg{
+    width: 20px;
+    height: 20px;
+    color: lightgrey;
+    box-sizing: content-box;
+    padding: 5px;
+}
+
+.nav-left img{
+    width: 100px;
+    height: 100px;
+}
+/* end navigasi */
+
+.container-header{
+    width: 1120px;
+    height: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.header{
+    height:180px;
+    color: white;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.judul{
+    width: 800px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 1.2em;
+}
+ .paragraf{
+     font-size: 18px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 800px;
+     height:40px ;
+ }
+
+ .menu-header{
+     width: 1050px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .isi-header a{
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+ .isi-header svg{
+     width: 15px;
+     height: 15px;
+     margin-right: 8px;
+ }
+
+ .hover{
+     display: flex;
+     width: 135px;
+     height: 0;
+     padding: 0.5px;
+    background-color:lightgray;
+ }
+
+ .isi-header{  
+     width: 200px;
+     height: 100px;
+ }
+
+ .isi-header p{
+     margin-top: 15px;
+     line-height: 15px;
+     color: lightgray;
+ }
+.dev{
+     width: 150px;
+ }
+
+
+ 
+
+
+
